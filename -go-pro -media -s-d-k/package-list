@@ -1,0 +1,57 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:com.gopro.mediasdk////PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/index.html
+$dokka.location:com.gopro.mediasdk//exportEquirectangular/#[Error type: Unresolved type for Context]#com.gopro.mediasdk.GoProExportOptions/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/export-equirectangular.html
+$dokka.location:com.gopro.mediasdk//exportGPX/#[Error type: Unresolved type for Context]#java.io.File#java.io.File/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/export-g-p-x.html
+$dokka.location:com.gopro.mediasdk/ExportEvent.Canceled///PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-export-event/-canceled/index.html
+$dokka.location:com.gopro.mediasdk/ExportEvent.Error///PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-export-event/-error/index.html
+$dokka.location:com.gopro.mediasdk/ExportEvent.Error/Error/#kotlin.Throwable/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-export-event/-error/-error.html
+$dokka.location:com.gopro.mediasdk/ExportEvent.Error/cause/#/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-export-event/-error/cause.html
+$dokka.location:com.gopro.mediasdk/ExportEvent.Progress///PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-export-event/-progress/index.html
+$dokka.location:com.gopro.mediasdk/ExportEvent.Progress/Progress/#kotlin.Float/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-export-event/-progress/-progress.html
+$dokka.location:com.gopro.mediasdk/ExportEvent.Progress/fraction/#/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-export-event/-progress/fraction.html
+$dokka.location:com.gopro.mediasdk/ExportEvent.Success///PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-export-event/-success/index.html
+$dokka.location:com.gopro.mediasdk/ExportEvent.Success/Success/#java.io.File/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-export-event/-success/-success.html
+$dokka.location:com.gopro.mediasdk/ExportEvent.Success/outputFile/#/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-export-event/-success/output-file.html
+$dokka.location:com.gopro.mediasdk/ExportEvent///PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-export-event/index.html
+$dokka.location:com.gopro.mediasdk/GPCodec.H264///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-codec/-h264/index.html
+$dokka.location:com.gopro.mediasdk/GPCodec.HEVC///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-codec/-h-e-v-c/index.html
+$dokka.location:com.gopro.mediasdk/GPCodec///PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-codec/index.html
+$dokka.location:com.gopro.mediasdk/GPCodec/valueOf/#kotlin.String/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-codec/value-of.html
+$dokka.location:com.gopro.mediasdk/GPCodec/values/#/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-codec/values.html
+$dokka.location:com.gopro.mediasdk/GPResolution.Companion///PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-resolution/-companion/index.html
+$dokka.location:com.gopro.mediasdk/GPResolution.Companion/valueOf/#kotlin.String/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-resolution/-companion/value-of.html
+$dokka.location:com.gopro.mediasdk/GPResolution.Custom///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-resolution/-custom/index.html
+$dokka.location:com.gopro.mediasdk/GPResolution._3K///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-resolution/_3-k/index.html
+$dokka.location:com.gopro.mediasdk/GPResolution._4K///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-resolution/_4-k/index.html
+$dokka.location:com.gopro.mediasdk/GPResolution._5_6K///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-resolution/_5_6-k/index.html
+$dokka.location:com.gopro.mediasdk/GPResolution///PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-resolution/index.html
+$dokka.location:com.gopro.mediasdk/GPResolution/customName/#/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-resolution/custom-name.html
+$dokka.location:com.gopro.mediasdk/GPResolution/data/#/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-resolution/data.html
+$dokka.location:com.gopro.mediasdk/GPResolution/toString/#/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-resolution/to-string.html
+$dokka.location:com.gopro.mediasdk/GPResolution/valueOf/#kotlin.String/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-resolution/value-of.html
+$dokka.location:com.gopro.mediasdk/GPResolution/values/#/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-resolution/values.html
+$dokka.location:com.gopro.mediasdk/GPStabilization.AllOff///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-stabilization/-all-off/index.html
+$dokka.location:com.gopro.mediasdk/GPStabilization.AllOn///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-stabilization/-all-on/index.html
+$dokka.location:com.gopro.mediasdk/GPStabilization.AntiShake///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-stabilization/-anti-shake/index.html
+$dokka.location:com.gopro.mediasdk/GPStabilization.HorizonLevel///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-stabilization/-horizon-level/index.html
+$dokka.location:com.gopro.mediasdk/GPStabilization.WorldLock///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-stabilization/-world-lock/index.html
+$dokka.location:com.gopro.mediasdk/GPStabilization///PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-stabilization/index.html
+$dokka.location:com.gopro.mediasdk/GPStabilization/valueOf/#kotlin.String/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-stabilization/value-of.html
+$dokka.location:com.gopro.mediasdk/GPStabilization/values/#/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-stabilization/values.html
+$dokka.location:com.gopro.mediasdk/GoProExportException///PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-go-pro-export-exception/index.html
+$dokka.location:com.gopro.mediasdk/GoProExportException/GoProExportException/#kotlin.String#kotlin.Throwable?/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-go-pro-export-exception/-go-pro-export-exception.html
+$dokka.location:com.gopro.mediasdk/GoProExportOptions///PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-go-pro-export-options/index.html
+$dokka.location:com.gopro.mediasdk/GoProExportOptions/GoProExportOptions/#java.io.File#java.io.File#com.gopro.mediasdk.Resolution#com.gopro.mediasdk.GPCodec#com.gopro.mediasdk.GPStabilization#kotlin.Float?/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-go-pro-export-options/-go-pro-export-options.html
+$dokka.location:com.gopro.mediasdk/GoProExportOptions/bitrateMbps/#/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-go-pro-export-options/bitrate-mbps.html
+$dokka.location:com.gopro.mediasdk/GoProExportOptions/codec/#/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-go-pro-export-options/codec.html
+$dokka.location:com.gopro.mediasdk/GoProExportOptions/inputFile/#/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-go-pro-export-options/input-file.html
+$dokka.location:com.gopro.mediasdk/GoProExportOptions/outputFile/#/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-go-pro-export-options/output-file.html
+$dokka.location:com.gopro.mediasdk/GoProExportOptions/resolution/#/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-go-pro-export-options/resolution.html
+$dokka.location:com.gopro.mediasdk/GoProExportOptions/stabilization/#/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-go-pro-export-options/stabilization.html
+$dokka.location:com.gopro.mediasdk/Resolution///PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-resolution/index.html
+$dokka.location:com.gopro.mediasdk/Resolution/Resolution/#kotlin.Int#kotlin.Int/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-resolution/-resolution.html
+$dokka.location:com.gopro.mediasdk/Resolution/height/#/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-resolution/height.html
+$dokka.location:com.gopro.mediasdk/Resolution/width/#/PointingToDeclaration/-go-pro -media -s-d-k/com.gopro.mediasdk/-resolution/width.html
+com.gopro.mediasdk
+

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>GoPro Media SDK</title>
+    <link href="images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="scripts/sourceset_dependencies.js" async="async"></script>
+<link href="styles/style.css" rel="Stylesheet">
+<link href="styles/main.css" rel="Stylesheet">
+<link href="styles/prism.css" rel="Stylesheet">
+<link href="styles/logo-styles.css" rel="Stylesheet">
+<link href="styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+<link href="images/logo-gopro-almost-white-2025.svg">
+<link href="styles/logo-styles.css" rel="Stylesheet">
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="index.html">
+                            GoPro Media SDK
+                    </a>
+            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":docs_public:kotlin:dokkaHtml/mediasdk">mediasdk</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"><div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu" pageId="GoPro Media SDK::////PointingToDeclaration//1763756269">
+  <div class="overview"><span class="navButton" onclick="document.getElementById(&quot;GoPro Media SDK-nav-submenu&quot;).classList.toggle(&quot;hidden&quot;);"><span class="navButtonContent"></span></span><a href="index.html"><span>Go</span><wbr></wbr><span><span>Pro</span></span> <span><span>Media</span></span> <span><span>SDK</span></span></a></div>
+  <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0" pageId="GoPro Media SDK::com.gopro.mediasdk////PointingToDeclaration//1763756269">
+    <div class="overview"><span class="navButton" onclick="document.getElementById(&quot;GoPro Media SDK-nav-submenu-0&quot;).classList.toggle(&quot;hidden&quot;);"><span class="navButtonContent"></span></span><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/index.html"><span>com.</span><wbr></wbr><span>gopro.</span><wbr></wbr><span>mediasdk</span></a></div>
+    <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-0" pageId="GoPro Media SDK::com.gopro.mediasdk//exportEquirectangular/#[Error type: Unresolved type for Context]#com.gopro.mediasdk.GoProExportOptions/PointingToDeclaration//1763756269">
+      <div class="overview"><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/export-equirectangular.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon function"></span><span class="nav-link-child"><span>export</span><wbr></wbr><span><span>Equirectangular()</span></span></span></span></a></div>
+    </div>
+    <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-1" pageId="GoPro Media SDK::com.gopro.mediasdk/ExportEvent///PointingToDeclaration//1763756269">
+      <div class="overview"><span class="navButton" onclick="document.getElementById(&quot;GoPro Media SDK-nav-submenu-0-1&quot;).classList.toggle(&quot;hidden&quot;);"><span class="navButtonContent"></span></span><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-export-event/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon interface-kt"></span><span class="nav-link-child"><span>Export</span><wbr></wbr><span><span>Event</span></span></span></span></a></div>
+      <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-1-0" pageId="GoPro Media SDK::com.gopro.mediasdk/ExportEvent.Canceled///PointingToDeclaration//1763756269">
+        <div class="overview"><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-export-event/-canceled/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon object"></span><span class="nav-link-child"><span><span>Canceled</span></span></span></span></a></div>
+      </div>
+      <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-1-1" pageId="GoPro Media SDK::com.gopro.mediasdk/ExportEvent.Error///PointingToDeclaration//1763756269">
+        <div class="overview"><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-export-event/-error/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon class-kt"></span><span class="nav-link-child"><span><span>Error</span></span></span></span></a></div>
+      </div>
+      <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-1-2" pageId="GoPro Media SDK::com.gopro.mediasdk/ExportEvent.Progress///PointingToDeclaration//1763756269">
+        <div class="overview"><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-export-event/-progress/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon class-kt"></span><span class="nav-link-child"><span><span>Progress</span></span></span></span></a></div>
+      </div>
+      <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-1-3" pageId="GoPro Media SDK::com.gopro.mediasdk/ExportEvent.Success///PointingToDeclaration//1763756269">
+        <div class="overview"><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-export-event/-success/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon class-kt"></span><span class="nav-link-child"><span><span>Success</span></span></span></span></a></div>
+      </div>
+    </div>
+    <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-2" pageId="GoPro Media SDK::com.gopro.mediasdk//exportGPX/#[Error type: Unresolved type for Context]#java.io.File#java.io.File/PointingToDeclaration//1763756269">
+      <div class="overview"><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/export-g-p-x.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon function"></span><span class="nav-link-child"><span>export</span><wbr></wbr><span><span>GPX()</span></span></span></span></a></div>
+    </div>
+    <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-3" pageId="GoPro Media SDK::com.gopro.mediasdk/GoProExportException///PointingToDeclaration//1763756269">
+      <div class="overview"><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-go-pro-export-exception/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon exception-class"></span><span class="nav-link-child"><span>Go</span><wbr></wbr><span>Pro</span><wbr></wbr><span>Export</span><wbr></wbr><span><span>Exception</span></span></span></span></a></div>
+    </div>
+    <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-4" pageId="GoPro Media SDK::com.gopro.mediasdk/GoProExportOptions///PointingToDeclaration//1763756269">
+      <div class="overview"><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-go-pro-export-options/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon class-kt"></span><span class="nav-link-child"><span>Go</span><wbr></wbr><span>Pro</span><wbr></wbr><span>Export</span><wbr></wbr><span><span>Options</span></span></span></span></a></div>
+    </div>
+    <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-5" pageId="GoPro Media SDK::com.gopro.mediasdk/GPCodec///PointingToDeclaration//1763756269">
+      <div class="overview"><span class="navButton" onclick="document.getElementById(&quot;GoPro Media SDK-nav-submenu-0-5&quot;).classList.toggle(&quot;hidden&quot;);"><span class="navButtonContent"></span></span><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-codec/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon enum-class-kt"></span><span class="nav-link-child"><span><span>GPCodec</span></span></span></span></a></div>
+      <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-5-0" pageId="GoPro Media SDK::com.gopro.mediasdk/GPCodec.H264///PointingToDeclaration/{&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;:{&quot;key&quot;:&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;}}/1763756269">
+        <div class="overview"><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-codec/-h264/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon enum-class-kt"></span><span class="nav-link-child"><span><span>H264</span></span></span></span></a></div>
+      </div>
+      <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-5-1" pageId="GoPro Media SDK::com.gopro.mediasdk/GPCodec.HEVC///PointingToDeclaration/{&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;:{&quot;key&quot;:&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;}}/1763756269">
+        <div class="overview"><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-codec/-h-e-v-c/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon enum-class-kt"></span><span class="nav-link-child"><span><span>HEVC</span></span></span></span></a></div>
+      </div>
+    </div>
+    <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-6" pageId="GoPro Media SDK::com.gopro.mediasdk/GPResolution///PointingToDeclaration//1763756269">
+      <div class="overview"><span class="navButton" onclick="document.getElementById(&quot;GoPro Media SDK-nav-submenu-0-6&quot;).classList.toggle(&quot;hidden&quot;);"><span class="navButtonContent"></span></span><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-resolution/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon enum-class-kt"></span><span class="nav-link-child"><span><span>GPResolution</span></span></span></span></a></div>
+      <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-6-0" pageId="GoPro Media SDK::com.gopro.mediasdk/GPResolution.Companion///PointingToDeclaration//1763756269">
+        <div class="overview"><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-resolution/-companion/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon object"></span><span class="nav-link-child"><span><span>Companion</span></span></span></span></a></div>
+      </div>
+      <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-6-1" pageId="GoPro Media SDK::com.gopro.mediasdk/GPResolution._3K///PointingToDeclaration/{&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;:{&quot;key&quot;:&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;}}/1763756269">
+        <div class="overview"><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-resolution/_3-k/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon enum-class-kt"></span><span class="nav-link-child"><span><span>_3K</span></span></span></span></a></div>
+      </div>
+      <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-6-2" pageId="GoPro Media SDK::com.gopro.mediasdk/GPResolution._4K///PointingToDeclaration/{&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;:{&quot;key&quot;:&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;}}/1763756269">
+        <div class="overview"><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-resolution/_4-k/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon enum-class-kt"></span><span class="nav-link-child"><span><span>_4K</span></span></span></span></a></div>
+      </div>
+      <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-6-3" pageId="GoPro Media SDK::com.gopro.mediasdk/GPResolution._5_6K///PointingToDeclaration/{&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;:{&quot;key&quot;:&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;}}/1763756269">
+        <div class="overview"><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-resolution/_5_6-k/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon enum-class-kt"></span><span class="nav-link-child"><span><span>_5_6K</span></span></span></span></a></div>
+      </div>
+      <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-6-4" pageId="GoPro Media SDK::com.gopro.mediasdk/GPResolution.Custom///PointingToDeclaration/{&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;:{&quot;key&quot;:&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;}}/1763756269">
+        <div class="overview"><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-resolution/-custom/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon enum-class-kt"></span><span class="nav-link-child"><span><span>Custom</span></span></span></span></a></div>
+      </div>
+    </div>
+    <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-7" pageId="GoPro Media SDK::com.gopro.mediasdk/GPStabilization///PointingToDeclaration//1763756269">
+      <div class="overview"><span class="navButton" onclick="document.getElementById(&quot;GoPro Media SDK-nav-submenu-0-7&quot;).classList.toggle(&quot;hidden&quot;);"><span class="navButtonContent"></span></span><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-stabilization/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon enum-class-kt"></span><span class="nav-link-child"><span><span>GPStabilization</span></span></span></span></a></div>
+      <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-7-0" pageId="GoPro Media SDK::com.gopro.mediasdk/GPStabilization.AllOff///PointingToDeclaration/{&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;:{&quot;key&quot;:&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;}}/1763756269">
+        <div class="overview"><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-stabilization/-all-off/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon enum-class-kt"></span><span class="nav-link-child"><span>All</span><wbr></wbr><span><span>Off</span></span></span></span></a></div>
+      </div>
+      <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-7-1" pageId="GoPro Media SDK::com.gopro.mediasdk/GPStabilization.AntiShake///PointingToDeclaration/{&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;:{&quot;key&quot;:&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;}}/1763756269">
+        <div class="overview"><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-stabilization/-anti-shake/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon enum-class-kt"></span><span class="nav-link-child"><span>Anti</span><wbr></wbr><span><span>Shake</span></span></span></span></a></div>
+      </div>
+      <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-7-2" pageId="GoPro Media SDK::com.gopro.mediasdk/GPStabilization.WorldLock///PointingToDeclaration/{&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;:{&quot;key&quot;:&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;}}/1763756269">
+        <div class="overview"><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-stabilization/-world-lock/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon enum-class-kt"></span><span class="nav-link-child"><span>World</span><wbr></wbr><span><span>Lock</span></span></span></span></a></div>
+      </div>
+      <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-7-3" pageId="GoPro Media SDK::com.gopro.mediasdk/GPStabilization.HorizonLevel///PointingToDeclaration/{&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;:{&quot;key&quot;:&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;}}/1763756269">
+        <div class="overview"><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-stabilization/-horizon-level/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon enum-class-kt"></span><span class="nav-link-child"><span>Horizon</span><wbr></wbr><span><span>Level</span></span></span></span></a></div>
+      </div>
+      <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-7-4" pageId="GoPro Media SDK::com.gopro.mediasdk/GPStabilization.AllOn///PointingToDeclaration/{&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;:{&quot;key&quot;:&quot;org.jetbrains.dokka.links.EnumEntryDRIExtra&quot;}}/1763756269">
+        <div class="overview"><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-g-p-stabilization/-all-on/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon enum-class-kt"></span><span class="nav-link-child"><span>All</span><wbr></wbr><span><span>On</span></span></span></span></a></div>
+      </div>
+    </div>
+    <div class="sideMenuPart hidden" id="GoPro Media SDK-nav-submenu-0-8" pageId="GoPro Media SDK::com.gopro.mediasdk/Resolution///PointingToDeclaration//1763756269">
+      <div class="overview"><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/-resolution/index.html"><span class="nav-link-grid"><span class="nav-link-child nav-icon class-kt"></span><span class="nav-link-child"><span><span>Resolution</span></span></span></span></a></div>
+    </div>
+  </div>
+</div>
+
+</div>
+            </div>
+            <div id="main">
+<div class="main-content" id="content" pageIds="GoPro Media SDK::////PointingToDeclaration//1763756269">
+  <div class="breadcrumbs"></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Go</span><wbr></wbr><span><span>Pro</span></span> <span><span>Media</span></span> <span><span>SDK</span></span></h1>
+    <div class="platform-hinted UnderCoverText" data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":docs_public:kotlin:dokkaHtml/mediasdk"><blockquote class="quotation"><p class="paragraph">This GoPro Media SDK Documentation is GoPro copyrighted material. © 2025-2026 GoPro, Inc. All rights reserved. Use of this documentation is subject to the <a href="https://github.com/gopro/media-kotlin-sdk/blob/main/LICENSE.md">GoPro SDK Documentation License</a></p></blockquote></br>
+With the Media SDK, you can process GoPro `.360` spherical video files from
+within your own Android Kotlin application. This guide describes the development
+APIs and how to use them.<h2 class="">Requirements</h2><table><thead><tr><th>Requirement</th><th>Minimum</th></tr></thead><tbody><tr><td>Android <code class="org.jetbrains.dokka.pages.commenttable@4f7ca12f lang-kotlin">minSdk</code></td><td>33</td></tr><tr><td>Kotlin</td><td>Coroutines support required (<code class="org.jetbrains.dokka.pages.commenttable@4f7ca12f lang-kotlin">kotlinx-coroutines</code>)</td></tr><tr><td>Architecture</td><td><code class="org.jetbrains.dokka.pages.commenttable@4f7ca12f lang-kotlin">arm64-v8a</code>, <code class="org.jetbrains.dokka.pages.commenttable@4f7ca12f lang-kotlin">armeabi-v7a</code>, or <code class="org.jetbrains.dokka.pages.commenttable@4f7ca12f lang-kotlin">x86_64</code></td></tr></tbody></table><h2 class="">Setup</h2><h3 class="">Add the Media SDK to your Android project:</h3><ol><li><p class="paragraph">Take the AAR file and put it into the <code class="lang-kotlin">libs/</code> directory of your project</p></li><li><p class="paragraph">Add it to your app module's gradle build, e.g. <code class="lang-kotlin">build.gradle.kts</code>:</p></li></ol><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">dependencies {<br>    implementation(files(&quot;libs/GoProMediaSDK.aar&quot;))<br>}</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><h3 class="">JNI Considerations</h3><p class="paragraph">The Media SDK ships a Java Native Interface (JNI) library that bundles libc++_shared.so (from Android NDK 29.0.1420685). If your app also includes the C++ runtime, deduplicate the native library in Gradle to avoid packaging conflicts.</p><h3 class="">Gradle examples:</h3><h4 class="">Groovy (build.gradle):</h4><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">android {<br>  packagingOptions {<br>    pickFirst 'lib/**/libc++_shared.so'<br>  }<br>}</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><h4 class="">Kotlin DSL (build.gradle.kts):</h4><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">android {<br>  packagingOptions {<br>    jniLibs {<br>      pickFirsts += &quot;lib/**/libc++_shared.so&quot;<br>    }<br>  }<br>}</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><h3 class="">ProGuard / R8 Support</h3><p class="paragraph">When you're ready to package your new production application, the AAR contains consumer ProGuard rules that are merged into your app's shrinker configuration automatically. No additional rules are needed for the SDK's public API.</p><h2 class="">Using the APIs</h2><p class="paragraph">The Media SDK API is delivered as a set of free functions with supporting enums and object classes. To use them, add the following imports to your Kotlin code:</p><p class="paragraph">For exporting a .360 to equirectangular media:</p><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">import com.gopro.mediasdk.exportEquirectangular<br>import com.gopro.mediasdk.ExportEvent<br>import com.gopro.mediasdk.GPCodec<br>import com.gopro.mediasdk.GoProExportOptions<br>import com.gopro.mediasdk.GPResolution<br>import com.gopro.mediasdk.GPStabilization<br>import com.gopro.mediasdk.Resolution</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">For exporting GPX data:</p><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">import com.gopro.mediasdk.exportGPX</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><h2 class="">File Requirements</h2><h3 class="">Input</h3><ul><li><p class="paragraph">Must be a GoPro <code class="lang-kotlin">.360</code> spherical video file.</p></li><li><p class="paragraph">Must exist on the local filesystem and be readable by the process (i.e. <code class="lang-kotlin">File.canRead()</code> returns <code class="lang-kotlin">true</code>).</p></li><li><p class="paragraph">Content URIs (<code class="lang-kotlin">content://</code>) are not accepted — copy to a local <code class="lang-kotlin">File</code> first if necessary.</p></li></ul><h3 class="">Output</h3><ul><li><p class="paragraph">Must be a local filesystem path writable by the process.</p></li><li><p class="paragraph">If the output parent directory does not exist, the SDK will attempt to create it. Ensure your app has write permission to the target location.</p></li></ul><h2 class="">Open Source Licensing</h2><p class="paragraph">The GoPro Media SDK for Android incorporates open source software. When you distribute an application that includes this SDK you must comply with the terms of each component's license. Full license texts are located in <code class="lang-kotlin">licenses</code> and <code class="lang-kotlin">licenses/Android/</code> within the SDK distribution. See <code class="lang-kotlin">licenses/THIRD_PARTY_NOTICES.md</code> for the authoritative list.</p><h2 class="">Related Links</h2><ul><li><p class="paragraph"><a href="https://github.com/gopro/media-swift-sdk">GoPro Media SDK for Swift</a></p></li><li><p class="paragraph"><a href="https://gopro.com/en/us/info/developer-tools">Register and download the latest SDK</a></p></li></ul></div></div>
+  </div>
+  <h2 class="">Packages</h2>
+  <div class="table"><a data-name="1912586958%2FPackages%2F1763756269" anchor-label="com.gopro.mediasdk" id="1912586958%2FPackages%2F1763756269" data-filterable-set=":docs_public:kotlin:dokkaHtml/mediasdk"></a>
+    <div class="table-row" data-filterable-current=":docs_public:kotlin:dokkaHtml/mediasdk" data-filterable-set=":docs_public:kotlin:dokkaHtml/mediasdk">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-go-pro -media -s-d-k/com.gopro.mediasdk/index.html">com.gopro.mediasdk</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1912586958%2FPackages%2F1763756269"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">mediasdk</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2026 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

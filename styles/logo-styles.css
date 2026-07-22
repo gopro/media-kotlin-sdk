@@ -1,0 +1,29 @@
+:root {
+    --dokka-logo-image-url: url('../images/logo-gopro-almost-white-2025.svg');
+  --dokka-logo-height: 85px;
+  --dokka-logo-width: 24px;
+}
+
+/* Dokka - Logo custom rules styles */
+.library-name--link::before {
+  background-position: left center;
+  background-size: contain;
+  width: 85px;
+  height: 24px;
+}
+
+/* Dokka - Footer copyright text */
+.footer > span:nth-of-type(2) {
+  font-size: 0;
+}
+
+.footer > span:nth-of-type(2)::before {
+  content: "© 2025-2026 GoPro, Inc. All rights reserved. Use of this documentation is subject to the GoPro SDK Documentation License.";
+  font-size: 14px;
+}
+
+/* Dokka - Home page: hide the auto-generated Packages table */
+.main-content[pageids^="GoPro Media SDK::////PointingToDeclaration//"] > h2,
+.main-content[pageids^="GoPro Media SDK::////PointingToDeclaration//"] > .table {
+  display: none;
+}
